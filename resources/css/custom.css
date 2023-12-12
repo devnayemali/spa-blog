@@ -1,0 +1,54 @@
+.login-logo,
+.register-logo {
+    font-size: 44px;
+}
+
+.login-card-body,
+.register-card-body {
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.btn {
+    padding: 6px 25px;
+    font-size: 16px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 500;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.custom-pagination svg {
+    width: 40px;
+}
+.custom-pagination .flex.justify-between.flex-1,
+.custom-pagination p.text-sm.text-gray-700.leading-5 {
+    display: none;
+}
+
+.custom-pagination .hidden {
+    display: inline-flex;
+}
